@@ -16,21 +16,33 @@
     />
   </head>
   <body>
-    <div class="container-main mx-auto rounded-2">
-      <img class="w-25" src="./images/icon-star.svg" alt="" />
-      <h1>How did we do</h1>
-      <p>
-        Please let us know how we did with your support request. All feedback is
-        appreciated to help us improve our offering!
-      </p>
-      <div class="d-flex justify-content-around">
-        <span>1</span>
-        <span>2</span>
-        <span>3</span>
-        <span>4</span>
-        <span>5</span>
+    <p class="pop-up fw-semibold mx-auto">Please choose a rating</p>
+    <div class="container-main mx-auto rounded-5">
+      <div class="first-div">
+        <img class="image" src="./images/icon-star.svg" alt="" />
+        <h1 class="m-0">How did we do?</h1>
+        <p class="m-0 fw-semibold">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="d-flex justify-content-around">
+          <span class="fw-semibold">1</span>
+          <span class="fw-semibold">2</span>
+          <span class="fw-semibold">3</span>
+          <span class="fw-semibold">4</span>
+          <span class="fw-semibold">5</span>
+        </div>
+        <button class="fw-semibold">SUBMIT</button>
       </div>
-      <button>Submit</button>
+      <div class="second-div d-none flex-column text-center">
+        <img class="w-50 mx-auto my-3" src="./images/illustration-thank-you.svg" alt="" />
+        <p class="selected fw-medium">You selected 4 out of 5</p>
+        <h1>Thank You!</h1>
+        <p>
+          We appreciate you taking the time to give a rating. if you ever need
+          more support, don't hesitate to get in touch!
+        </p>
+      </div>
     </div>
     <script src="./app.js"></script>
     <!-- <script
